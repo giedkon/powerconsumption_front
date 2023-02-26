@@ -84,3 +84,25 @@ body>.navbar-collapse {
     width: calc(100% - 260px);
     min-height: 100%
 }
+
+// Computer list
+.computer-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.computer-table th {
+    background-color: #ADD8E6;
+}
+
+.computer-table th,
+td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.computer-table th {
+    background-color: #4CAF50;
+    color: white;
+}
